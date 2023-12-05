@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(113, 217, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    width: 100%; 
+}
+section#area_cartelas{
+    width: 70%;
+    height: 75vh;
+    background-color: rgb(250, 237, 196);
+}
+
+div#header_cartelas, div#header_numeros{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(250, 237, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#body_cartelas{
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section#area_numeros{
+    width: 30%;
+    height: 75vh;
+    background-color: rgb(250, 237, 196);
+}
+
+div#body_numeros{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div#body_numeros span{
+    background-color: gray;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+div.cartela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+div.cartela h4{
+    margin-bottom: 5px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: rgb(113, 217, 248);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

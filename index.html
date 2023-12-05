@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Jogo de Bingo</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Bingo</h1>
+    </header>
+
+    <main>
+        <section id="area_cartelas">
+            <div id="header_cartelas">
+                <h3>Cartelas</h3>
+                <button onclick="inscreverJogador()" style="cursor: pointer;">Gerar cartela</button>
+                <button onclick="window.location.reload()" style="cursor: pointer;">Reiniciar jogo</button>
+            </div>
+
+            <div id="body_cartelas">
+            
+            </div>
+        </section>
+
+        <section id="area_numeros">
+            <div id="header_numeros">
+                <button onclick="jogar()" style="cursor: pointer;">Jogar</button>
+            </div>
+
+            <div id="body_numeros">
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Feito por @pedroask
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
